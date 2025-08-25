@@ -5,7 +5,6 @@
             type="text"
             wire:model="name"
             placeholder="Enter your name"
-            class="w-full"
         />
 
         <flux:input
@@ -13,7 +12,6 @@
             type="email"
             wire:model="email"
             placeholder="Enter your email"
-            class="w-full"
         />
 
         @if (!isset($user->name))
@@ -22,7 +20,6 @@
                 type="password"
                 wire:model="password"
                 placeholder="Enter your password"
-                class="w-full"
             />
 
             <flux:input
@@ -30,7 +27,6 @@
                 type="password"
                 wire:model="password_confirmation"
                 placeholder="Confirm your password"
-                class="w-full"
             />
         @endif
 
